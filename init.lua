@@ -24,3 +24,4 @@ function minetest.open_enderchest()
 	minetest.show_formspec("enderchest:enderchest", enderchest_formspec)
 end
  
+minetest.register_cheat("Enderchest", "Inventory", minetest.open_enderchest)
